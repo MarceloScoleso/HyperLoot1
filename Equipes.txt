@@ -11,7 +11,7 @@ RM: 571626 - Marcelo Antonio Scoleso Junior
 TEMA: Loja Gamer (HyperLoot)
 
 LINK GITHUB PAGES:
-
+https://marceloscoleso.github.io/HyperLoot1/index.html
 
 REPOSITORIO:
 https://github.com/MarceloScoleso/HyperLoot1
