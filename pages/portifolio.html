@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Catalogo HyperLoot: perifericos, monitores, consoles, PCs gamer, cadeiras e jogos. Precos transparentes, planos de assinatura e promocoes." />
+    <meta name="theme-color" content="#7C5CFC" />
+    <title>Portifólio · HyperLoot</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../src/css/estilo.css" />
+    <link rel="icon" type="image/png" href="../src/assets/img/logo-icon-hyper.png" />
+  </head>
+
+  <body>
+
+    <header class="header" role="banner">
+      <div class="container header-inner">
+        <a href="../index.html" class="logo" aria-label="HyperLoot - Pagina inicial">
+          <img src="../src/assets/img/logo-hyper.png" alt="HyperLoot" class="logo-full" />
+        </a>
+
+        <nav class="nav" aria-label="Navegacao principal">
+          <ul class="nav-list" id="nav-list">
+            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="portifolio.html" class="nav-link active">Portifólio</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+            <li><a href="contato.html" class="btn btn-primary">Comprar agora</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <a href="contato.html" class="btn btn-primary">Comprar agora</a>
+          </div>
+
+          <button type="button" class="cart-toggle" aria-label="Abrir carrinho" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="9" cy="21" r="1" />
+              <circle cx="20" cy="21" r="1" />
+              <path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6" />
+            </svg>
+            <span class="cart-badge" data-cart-count hidden>0</span>
+          </button>
+
+          <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <line x1="3" y1="7" x2="21" y2="7" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="17" x2="21" y2="17" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="page-header has-bg-image">
+        <div class="container">
+          <div class="page-header-grid">
+            <div class="page-header-left">
+              <nav class="breadcrumb" aria-label="Migalhas">
+                <a href="../index.html">Home</a>
+                <span>›</span>
+                <span>Portifólio</span>
+              </nav>
+              <h1>Catálogo <span class="text-gradient">completo</span></h1>
+              <p>33 produtos selecionados, 3 planos de assinatura e promoções relâmpago. Tudo curado por gamers, com preço transparente.</p>
+
+              <div class="header-stats" aria-label="Resumo do catálogo">
+                <div class="header-stat">
+                  <strong>33<span>+</span></strong>
+                  <small>produtos</small>
+                </div>
+                <div class="header-stat">
+                  <strong>4<span>tiers</span></strong>
+                  <small>faixas de preço</small>
+                </div>
+                <div class="header-stat">
+                  <strong>3<span>planos</span></strong>
+                  <small>de assinatura</small>
+                </div>
+                <div class="header-stat">
+                  <strong>6<span>ativas</span></strong>
+                  <small>promoções</small>
+                </div>
+              </div>
+            </div>
+
+            <aside class="page-header-right">
+              <div class="quick-header">
+                <h4>Acesso rápido</h4>
+              </div>
+              <div class="quick-list">
+                <a href="#produtos" class="quick-item">
+                  <span class="ql-icon ql-icon--products" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                  </span>
+                  <span class="ql-body">
+                    <strong>Produtos</strong>
+                    <small>33 itens curados</small>
+                  </span>
+                  <svg class="ql-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+                </a>
+
+                <a href="#comparativo" class="quick-item">
+                  <span class="ql-icon ql-icon--price" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                  </span>
+                  <span class="ql-body">
+                    <strong>Faixas de preço</strong>
+                    <small>4 tiers transparentes</small>
+                  </span>
+                  <svg class="ql-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+                </a>
+
+                <a href="#planos" class="quick-item">
+                  <span class="ql-icon ql-icon--plans" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 8 22 9 17 14 18 21 12 18 6 21 7 14 2 9 9 8 12 2"/></svg>
+                  </span>
+                  <span class="ql-body">
+                    <strong>Planos</strong>
+                    <small>3 opções de assinatura</small>
+                  </span>
+                  <svg class="ql-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+                </a>
+
+                <a href="#promos" class="quick-item">
+                  <span class="ql-icon ql-icon--promo" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+                  </span>
+                  <span class="ql-body">
+                    <strong>Promoções</strong>
+                    <small>6 ofertas relâmpago</small>
+                  </span>
+                  <svg class="ql-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="produtos" aria-labelledby="produtos-title">
+        <div class="container">
+          <header class="reveal" style="margin-bottom: var(--space-md);">
+            <span class="section-tag">Arsenal</span>
+            <h2 id="produtos-title" class="section-title">Produtos HyperLoot</h2>
+            <p class="section-subtitle">Filtre por categoria ou role pra ver tudo o que temos no momento.</p>
+          </header>
+
+          <div class="filter-pills reveal" role="tablist" aria-label="Filtrar produtos">
+            <button class="filter-pill active" data-category="all">Todos</button>
+            <button class="filter-pill" data-category="periferico">Periféricos</button>
+            <button class="filter-pill" data-category="audio">Áudio</button>
+            <button class="filter-pill" data-category="monitor">Monitores</button>
+            <button class="filter-pill" data-category="pc">PCs &amp; Consoles</button>
+            <button class="filter-pill" data-category="mobiliario">Mobiliário</button>
+            <button class="filter-pill" data-category="streaming">Streaming</button>
+            <button class="filter-pill" data-category="jogo">Jogos</button>
+          </div>
+
+          <div class="product-list reveal">
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag gold">Bestseller</span>
+                <img src="../src/assets/img/product-mouse.jpg" alt="Mouse HyperPro 26K" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Mouse</span>
+                <h3>Mouse HyperPro 26K</h3>
+                <p>Sensor PixArt 26.000 DPI, 8 botões programáveis, 60g ultraleve, switch óptico de 100M cliques e cabo paracord ultra flexível.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>26k</strong> DPI</span>
+                  <span class="product-row-spec"><strong>60g</strong> peso</span>
+                  <span class="product-row-spec"><strong>USB-C</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 449</strong>
+                  <small>R$ 599</small>
+                  <em>-25%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Novo</span>
+                <img src="../src/assets/img/product-mouse-wireless.jpg" alt="Mouse VortexRed Wireless" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Mouse Wireless</span>
+                <h3>Mouse VortexRed Wireless</h3>
+                <p>Sensor HERO 32K, dual conectividade 2.4GHz Lightspeed + Bluetooth, bateria de 90 horas, peso 63g e iluminação RGB Lightsync com 16M de cores.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>32k</strong> DPI</span>
+                  <span class="product-row-spec"><strong>90h</strong> bateria</span>
+                  <span class="product-row-spec"><strong>2.4GHz</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 899</strong>
+                  <small>R$ 1.099</small>
+                  <em>-18%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-mouse-mmo.jpg" alt="Mouse SilentClick MMO" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Mouse MMO</span>
+                <h3>Mouse SilentClick MMO 16</h3>
+                <p>16 botões programáveis no polegar, sensor 18.000 DPI, switches silenciosos Omron de 80M cliques e descanso de polegar removível. Ideal pra MMO, MOBA e produtividade.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>16</strong> botões</span>
+                  <span class="product-row-spec"><strong>18k</strong> DPI</span>
+                  <span class="product-row-spec"><strong>80M</strong> cliques</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 549</strong>
+                  <small>R$ 699</small>
+                  <em>-21%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag gold">Pro Player</span>
+                <img src="../src/assets/img/product-mouse-fps.jpg" alt="Mouse AeroLite FPS" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Mouse FPS</span>
+                <h3>Mouse AeroLite FPS Lightspeed</h3>
+                <p>Sensor HERO 25K, switches ópticos com resposta de 1ms, peso pluma de 47g, formato simétrico para FPS competitivo e cabo Speedflex praticamente sem arrasto.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>47g</strong> peso</span>
+                  <span class="product-row-spec"><strong>25k</strong> DPI</span>
+                  <span class="product-row-spec"><strong>1ms</strong> latência</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 749</strong>
+                  <small>R$ 999</small>
+                  <em>-25%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-mouse-ambi.jpg" alt="Mouse Glide Ambidextro" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Mouse Entry</span>
+                <h3>Mouse Glide Ambidextro</h3>
+                <p>12.000 DPI, formato ambidestro com botões duplicados em cada lado, RGB de 16M cores, peso 75g e cabo paracord trançado. Entrada perfeita para o competitivo.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>12k</strong> DPI</span>
+                  <span class="product-row-spec"><strong>75g</strong> peso</span>
+                  <span class="product-row-spec"><strong>Ambidextro</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 199</strong>
+                  <small>R$ 279</small>
+                  <em>-29%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Novo</span>
+                <img src="../src/assets/img/product-keyboard.jpg" alt="Teclado RaidKey TKL" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Teclado TKL</span>
+                <h3>Teclado RaidKey TKL Mecânico</h3>
+                <p>Hot-swap completo, switch Gateron vermelho, RGB per-key, layout ABNT2, keycaps PBT double-shot. Construção em alumínio escovado.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>TKL</strong> compacto</span>
+                  <span class="product-row-spec"><strong>RGB</strong> per-key</span>
+                  <span class="product-row-spec"><strong>Hot-swap</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 729</strong>
+                  <small>R$ 899</small>
+                  <em>-19%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-keyboard-full.jpg" alt="Teclado Sentinel Full RGB" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Teclado Full</span>
+                <h3>Teclado Sentinel Full RGB</h3>
+                <p>Layout 104 teclas com numpad dedicado, switch Outemu marrom hot-swap, RGB per-key, descanso de pulso magnético e controles de mídia em multimedia keys físicas.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>104</strong> teclas</span>
+                  <span class="product-row-spec"><strong>Numpad</strong></span>
+                  <span class="product-row-spec"><strong>Hot-swap</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 599</strong>
+                  <small>R$ 749</small>
+                  <em>-20%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Compacto</span>
+                <img src="../src/assets/img/product-keyboard-65.jpg" alt="Teclado Compact 65 Aura" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Teclado 65%</span>
+                <h3>Teclado Compact 65% Aura</h3>
+                <p>Layout 65% em alumínio CNC, switch Akko V3 Cream Yellow lubrificado de fábrica, keycaps PBT dye-sub, hot-swap, USB-C destacável e RGB south-facing.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>65%</strong></span>
+                  <span class="product-row-spec"><strong>Alumínio</strong></span>
+                  <span class="product-row-spec"><strong>PBT</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 999</strong>
+                  <small>R$ 1.249</small>
+                  <em>-20%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Novo</span>
+                <img src="../src/assets/img/product-keyboard-wireless.jpg" alt="Teclado Stealth Wireless 75" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Teclado Wireless</span>
+                <h3>Teclado Stealth Wireless 75%</h3>
+                <p>Tri-mode (2.4GHz + Bluetooth 5.3 + USB-C), bateria 4000mAh com 200h de autonomia, switch Gateron silver, gasket mount e foam silenciador interno.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>75%</strong></span>
+                  <span class="product-row-spec"><strong>Tri-mode</strong></span>
+                  <span class="product-row-spec"><strong>200h</strong> bateria</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.249</strong>
+                  <small>R$ 1.499</small>
+                  <em>-17%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="periferico">
+              <div class="product-row-img">
+                <span class="product-row-tag gold">DIY</span>
+                <img src="../src/assets/img/product-keyboard-custom.jpg" alt="Teclado Custom Builder Kit" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Periférico · Custom Kit</span>
+                <h3>Teclado Custom Builder Kit</h3>
+                <p>Kit barebones 60% em alumínio Pearl White, PCB hot-swap south-facing, gasket mount e stabilizers pré-lubrificados. Você escolhe switches e keycaps. Construa do seu jeito.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>Barebones</strong></span>
+                  <span class="product-row-spec"><strong>Gasket</strong></span>
+                  <span class="product-row-spec"><strong>South-facing</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.799</strong>
+                  <small>R$ 2.199</small>
+                  <em>-18%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="audio">
+              <div class="product-row-img">
+                <span class="product-row-tag">Top 1</span>
+                <img src="../src/assets/img/product-headset.jpg" alt="Headset Echo Surround 7.1" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Áudio · Headset</span>
+                <h3>Headset Echo Surround 7.1</h3>
+                <p>Drivers 50mm neodímio, surround virtual 7.1, microfone removível com ENC, espuma memory foam e dupla conexão USB-C + 3.5mm.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>50mm</strong> drivers</span>
+                  <span class="product-row-spec"><strong>7.1</strong> surround</span>
+                  <span class="product-row-spec"><strong>ENC</strong> mic</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 599</strong>
+                  <small>R$ 799</small>
+                  <em>-25%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="audio">
+              <div class="product-row-img">
+                <span class="product-row-tag gold">Premium</span>
+                <img src="../src/assets/img/product-headset-wireless.jpg" alt="Headset TitanX Wireless" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Áudio · Headset Wireless</span>
+                <h3>Headset TitanX Wireless</h3>
+                <p>Drivers planares de 50mm, wireless 2.4GHz com latência sub-25ms, microfone broadcast hi-fi destacável, espuma cooling gel e bateria de 40h com dock magnético.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>50mm</strong> planar</span>
+                  <span class="product-row-spec"><strong>40h</strong> bateria</span>
+                  <span class="product-row-spec"><strong>2.4GHz</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.799</strong>
+                  <small>R$ 2.299</small>
+                  <em>-22%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="audio">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-headset-lite.jpg" alt="Headset EsportPlay Lite" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Áudio · Headset Entry</span>
+                <h3>Headset EsportPlay Lite</h3>
+                <p>Drivers 40mm neodímio, almofadas memory foam respirável, microfone flexível com mute físico, controle inline com volume e cabo trançado de 2.1m plug 3.5mm.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>40mm</strong> drivers</span>
+                  <span class="product-row-spec"><strong>Mute</strong> físico</span>
+                  <span class="product-row-spec"><strong>3.5mm</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 249</strong>
+                  <small>R$ 349</small>
+                  <em>-29%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="audio">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Novo</span>
+                <img src="../src/assets/img/product-earbuds.jpg" alt="Earbuds GamerPods Pro TWS" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Áudio · Earbuds TWS</span>
+                <h3>Earbuds GamerPods Pro TWS</h3>
+                <p>True wireless com modo Gaming de latência 50ms, cancelamento de ruído ativo, 8h por carga + 24h no estojo, drivers dinâmicos 11mm e certificação IPX5.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>50ms</strong> gaming</span>
+                  <span class="product-row-spec"><strong>ANC</strong></span>
+                  <span class="product-row-spec"><strong>32h</strong> total</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 449</strong>
+                  <small>R$ 599</small>
+                  <em>-25%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="audio">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-headset-studio.jpg" alt="Headset Studio Lab Open-back" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Áudio · Headset Studio</span>
+                <h3>Headset Studio Lab Open-back</h3>
+                <p>Drivers 53mm de fibra de bio-celulose, design open-back para palco sonoro crítico, impedância 80Ω e cabo destacável de 3m. Edição, produção e gaming AAA imersivo.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>Open-back</strong></span>
+                  <span class="product-row-spec"><strong>80Ω</strong></span>
+                  <span class="product-row-spec"><strong>53mm</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.499</strong>
+                  <small>R$ 1.799</small>
+                  <em>-17%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="monitor">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-monitor.jpg" alt="Monitor Vortex 27 240Hz" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Vídeo · Monitor 27"</span>
+                <h3>Monitor Vortex 27" 240Hz</h3>
+                <p>Painel IPS QHD, 240Hz nativos, 1ms GtG, HDR400, sincronia FreeSync Premium e ajuste completo de altura, pivot e rotação.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>240Hz</strong></span>
+                  <span class="product-row-spec"><strong>QHD</strong> IPS</span>
+                  <span class="product-row-spec"><strong>1ms</strong> GtG</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 2.499</strong>
+                  <small>R$ 2.999</small>
+                  <em>-17%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="monitor">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Frete grátis</span>
+                <img src="../src/assets/img/product-monitor-ultrawide.jpg" alt="Monitor UltraWide Apex 34" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Vídeo · UltraWide 34"</span>
+                <h3>Monitor UltraWide Apex 34" 165Hz</h3>
+                <p>Painel VA curvo 1500R, resolução WQHD 3440x1440, 165Hz, 1ms MPRT, HDR400 e KVM USB-C 65W com Power Delivery integrado para o notebook.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>34"</strong> 1500R</span>
+                  <span class="product-row-spec"><strong>165Hz</strong></span>
+                  <span class="product-row-spec"><strong>USB-C 65W</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 3.499</strong>
+                  <small>R$ 4.199</small>
+                  <em>-17%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="monitor">
+              <div class="product-row-img">
+                <span class="product-row-tag">Top 1</span>
+                <img src="../src/assets/img/product-monitor-4k.jpg" alt="Monitor Nova 4K 144Hz 32" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Vídeo · Monitor 4K</span>
+                <h3>Monitor Nova 4K 144Hz 32"</h3>
+                <p>Painel IPS 4K nativo (3840x2160), 144Hz, 1ms GtG, HDR600, profundidade 10-bit com 1.07 bilhão de cores e suporte VESA com altura, pivot e rotação.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>4K</strong> 144Hz</span>
+                  <span class="product-row-spec"><strong>HDR600</strong></span>
+                  <span class="product-row-spec"><strong>10-bit</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 4.299</strong>
+                  <small>R$ 4.999</small>
+                  <em>-14%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="monitor">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-monitor-portable.jpg" alt="Monitor Portátil 16" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Vídeo · Portátil 16"</span>
+                <h3>Monitor Portátil Roam 16" FHD</h3>
+                <p>16" IPS FHD 144Hz, espessura de 9mm, peso 750g, alimentação USB-C single-cable e capa magnética dual-fold. Setup mobile pra LAN, viagem e segunda tela.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>16"</strong> 144Hz</span>
+                  <span class="product-row-spec"><strong>750g</strong></span>
+                  <span class="product-row-spec"><strong>USB-C</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.299</strong>
+                  <small>R$ 1.599</small>
+                  <em>-19%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="pc">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Frete grátis</span>
+                <img src="../src/assets/img/product-pc.jpg" alt="PC HyperBuild RTX 4070" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">PC Gamer · Setup Pro</span>
+                <h3>PC HyperBuild RTX 4070 Super</h3>
+                <p>Ryzen 7 7700X 8-core, RTX 4070 Super 12GB, 32GB DDR5 6000MHz, SSD 1TB NVMe Gen4, fonte 750W gold modular, watercooler 240mm RGB.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>RTX 4070</strong></span>
+                  <span class="product-row-spec"><strong>32GB</strong> DDR5</span>
+                  <span class="product-row-spec"><strong>1TB</strong> NVMe</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 8.999</strong>
+                  <small>R$ 10.499</small>
+                  <em>-14%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="pc">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-pc-mid.jpg" alt="PC HyperBuild Starter RTX 4060" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">PC Gamer · Starter</span>
+                <h3>PC HyperBuild Starter RTX 4060</h3>
+                <p>Ryzen 5 7600, RTX 4060 8GB, 16GB DDR5 5600MHz, SSD 500GB NVMe Gen4, fonte 650W 80+ bronze e gabinete em vidro temperado com 3 fans RGB.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>RTX 4060</strong></span>
+                  <span class="product-row-spec"><strong>16GB</strong> DDR5</span>
+                  <span class="product-row-spec"><strong>500GB</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 5.499</strong>
+                  <small>R$ 6.299</small>
+                  <em>-13%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="pc">
+              <div class="product-row-img">
+                <span class="product-row-tag gold">Elite</span>
+                <img src="../src/assets/img/product-pc-elite.jpg" alt="PC HyperBuild Elite RTX 4090" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">PC Gamer · Elite</span>
+                <h3>PC HyperBuild Elite RTX 4090</h3>
+                <p>Intel i9 14900K, RTX 4090 24GB, 64GB DDR5 7200MHz, 2TB SSD NVMe Gen4 + 4TB HDD, fonte 1000W gold modular, watercooler 360mm e gabinete pirâmide vertical.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>RTX 4090</strong></span>
+                  <span class="product-row-spec"><strong>64GB</strong></span>
+                  <span class="product-row-spec"><strong>2TB</strong> NVMe</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 24.999</strong>
+                  <small>R$ 28.999</small>
+                  <em>-14%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="pc">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-console.jpg" alt="Console NextGen Pro" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Console · NextGen Pro</span>
+                <h3>Console NextGen Pro 1TB</h3>
+                <p>SSD 1TB, ray tracing 4K, 120fps, dois controles wireless e três jogos AAA inclusos no pacote da HyperLoot.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>4K</strong> ray tracing</span>
+                  <span class="product-row-spec"><strong>120fps</strong></span>
+                  <span class="product-row-spec"><strong>2x</strong> controles</span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 4.299</strong>
+                  <small>R$ 4.999</small>
+                  <em>-14%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="pc">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-console-lite.jpg" alt="Console NextGen Lite Digital" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Console · NextGen Lite</span>
+                <h3>Console NextGen Lite Digital 512GB</h3>
+                <p>Edição digital com SSD de 512GB sem leitor de disco, suporte a 4K 60fps, ray tracing, um controle wireless e um mês de assinatura premium inclusa.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>512GB</strong> SSD</span>
+                  <span class="product-row-spec"><strong>Digital</strong></span>
+                  <span class="product-row-spec"><strong>4K 60fps</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 2.999</strong>
+                  <small>R$ 3.499</small>
+                  <em>-14%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="mobiliario">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-chair.jpg" alt="Cadeira Throne Elite" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Mobiliário · Cadeira Pro</span>
+                <h3>Cadeira Throne Elite</h3>
+                <p>Encosto reclinável 180°, apoio lombar ajustável, braços 4D, almofada cervical em memory foam, capacidade de 150kg.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>180°</strong> reclina</span>
+                  <span class="product-row-spec"><strong>4D</strong> braços</span>
+                  <span class="product-row-spec"><strong>150kg</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.899</strong>
+                  <small>R$ 2.299</small>
+                  <em>-17%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="mobiliario">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-chair-air.jpg" alt="Cadeira Throne Air" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Mobiliário · Cadeira Entry</span>
+                <h3>Cadeira Throne Air Mesh</h3>
+                <p>Encosto em mesh respirável anti-suor, apoio lombar ajustável, braços 2D, almofada cervical removível e base em nylon reforçado para até 120kg.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>Mesh</strong></span>
+                  <span class="product-row-spec"><strong>2D</strong> braços</span>
+                  <span class="product-row-spec"><strong>120kg</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 999</strong>
+                  <small>R$ 1.299</small>
+                  <em>-23%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="mobiliario">
+              <div class="product-row-img">
+                <span class="product-row-tag">Combo</span>
+                <img src="../src/assets/img/product-desk.jpg" alt="Mesa Setup Z Elevatória" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Mobiliário · Mesa</span>
+                <h3>Mesa Setup Z Elevatória</h3>
+                <p>Mesa elétrica 140x70cm, ajuste de altura de 70-120cm com memória de 3 posições, motores duais silenciosos, suporte até 100kg e passa-cabos integrado.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>140x70cm</strong></span>
+                  <span class="product-row-spec"><strong>Elétrica</strong></span>
+                  <span class="product-row-spec"><strong>3 memórias</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 2.799</strong>
+                  <small>R$ 3.299</small>
+                  <em>-15%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="mobiliario">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-mousepad.jpg" alt="Mousepad XL Hyperion" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Mobiliário · Mousepad</span>
+                <h3>Mousepad XL Hyperion RGB</h3>
+                <p>90x40cm, base antiderrapante em borracha SBR, costura overlock reforçada, superfície speed-control para FPS e iluminação RGB de 14 zonas plug-and-play USB.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>90x40cm</strong></span>
+                  <span class="product-row-spec"><strong>RGB</strong> 14 zonas</span>
+                  <span class="product-row-spec"><strong>Speed</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 249</strong>
+                  <small>R$ 329</small>
+                  <em>-24%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="streaming">
+              <div class="product-row-img">
+                <span class="product-row-tag">Combo</span>
+                <img src="../src/assets/img/product-streamer.jpg" alt="Streamer Kit Starter" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Streaming · Kit Starter</span>
+                <h3>Streamer Kit Starter</h3>
+                <p>Microfone condensador USB, câmera 1080p 60fps, ring light 12", braço articulado, mentoria 1:1 com streamer parceiro inclusa.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>1080p</strong> 60fps</span>
+                  <span class="product-row-spec"><strong>USB</strong> plug</span>
+                  <span class="product-row-spec"><strong>Mentoria</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.499</strong>
+                  <small>R$ 1.999</small>
+                  <em>-25%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="streaming">
+              <div class="product-row-img">
+                <span class="product-row-tag">Top 1</span>
+                <img src="../src/assets/img/product-mic.jpg" alt="Microfone StreamCast XLR" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Streaming · Microfone</span>
+                <h3>Microfone StreamCast XLR + USB</h3>
+                <p>Microfone dinâmico cardioide com dual-mode XLR + USB-C, EQ embarcado com 4 presets de voz, monitoramento por fone com mix interno e shock-mount incluso.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>XLR + USB</strong></span>
+                  <span class="product-row-spec"><strong>Dinâmico</strong></span>
+                  <span class="product-row-spec"><strong>4 presets</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 1.099</strong>
+                  <small>R$ 1.399</small>
+                  <em>-21%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="streaming">
+              <div class="product-row-img">
+                <span class="product-row-tag cyan">Novo</span>
+                <img src="../src/assets/img/product-webcam.jpg" alt="Webcam StreamView 4K" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Streaming · Webcam 4K</span>
+                <h3>Webcam StreamView 4K</h3>
+                <p>Sensor Sony STARVIS 4K 30fps ou 1080p 60fps, autofoco dual-pixel, HDR, microfones beamforming integrados, privacy shutter físico e suporte para monitor + tripé.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>4K</strong> 30fps</span>
+                  <span class="product-row-spec"><strong>HDR</strong></span>
+                  <span class="product-row-spec"><strong>Dual mic</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 999</strong>
+                  <small>R$ 1.299</small>
+                  <em>-23%</em>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="jogo">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-game.jpg" alt="Jogos AAA Steam Keys" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Jogos · Steam Keys</span>
+                <h3>Jogos AAA · Steam Keys</h3>
+                <p>Catálogo completo dos lançamentos com 10% off para clientes do plano Pro. Entrega instantânea por e-mail após confirmação.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>Steam</strong> oficial</span>
+                  <span class="product-row-spec"><strong>10%</strong> off Pro</span>
+                  <span class="product-row-spec"><strong>Instantâneo</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 89+</strong>
+                  <small>variável</small>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+            <article class="product-row" data-category="jogo">
+              <div class="product-row-img">
+                <img src="../src/assets/img/product-giftcard.jpg" alt="Gift Card HyperLoot Universal" loading="lazy" />
+              </div>
+              <div class="product-row-content">
+                <span class="cat">Jogos · Gift Card</span>
+                <h3>Gift Card HyperLoot Universal</h3>
+                <p>Crédito digital utilizável em Steam, PlayStation Store, Xbox Live, Nintendo eShop ou Battle.net. Entrega em até 5 minutos no e-mail cadastrado, sem validade.</p>
+                <div class="product-row-specs">
+                  <span class="product-row-spec"><strong>Multi-loja</strong></span>
+                  <span class="product-row-spec"><strong>5min</strong> entrega</span>
+                  <span class="product-row-spec"><strong>Sem validade</strong></span>
+                </div>
+              </div>
+              <div class="product-row-meta">
+                <div class="product-row-price">
+                  <strong>R$ 50+</strong>
+                  <small>variável</small>
+                </div>
+                <button type="button" class="btn btn-primary add-to-cart">Comprar</button>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="comparativo" aria-labelledby="comp-title">
+        <div class="container">
+          <header class="reveal" style="text-align: center; max-width: 720px; margin: 0 auto var(--space-2xl);">
+            <span class="section-tag">Faixas de preço</span>
+            <h2 id="comp-title" class="section-title">Tem opção pra cada bolso</h2>
+            <p class="section-subtitle">Da entrada ao topo de linha, sem letrinha miúda. Membros Pro têm 15% off em qualquer tier.</p>
+          </header>
+
+          <div class="comparison-grid reveal">
+            <div class="comparison-card">
+              <div class="comparison-img">
+                <img src="../src/assets/img/tier-entrada.jpg" alt="" loading="lazy" />
+                <span class="tier-label">Tier 01</span>
+              </div>
+              <div class="comparison-body">
+                <h4>Entrada</h4>
+                <div class="range">R$ 79 — R$ 499</div>
+                <p>Pra quem tá começando ou precisa repor um periférico básico de qualidade.</p>
+              </div>
+            </div>
+
+            <div class="comparison-card">
+              <div class="comparison-img">
+                <img src="../src/assets/img/tier-mid.jpg" alt="" loading="lazy" />
+                <span class="tier-label">Tier 02</span>
+              </div>
+              <div class="comparison-body">
+                <h4>Mid Range</h4>
+                <div class="range">R$ 500 — R$ 1.499</div>
+                <p>Equipamento sério pra quem joga competitivo e quer subir de elo de verdade.</p>
+              </div>
+            </div>
+
+            <div class="comparison-card featured">
+              <div class="comparison-img">
+                <img src="../src/assets/img/tier-pro.jpg" alt="" loading="lazy" />
+                <span class="tier-label">Tier 03</span>
+              </div>
+              <div class="comparison-body">
+                <h4>Pro</h4>
+                <div class="range">R$ 1.500 — R$ 4.999</div>
+                <p>Top de linha pra streamers, pro players e quem leva game como profissão.</p>
+              </div>
+            </div>
+
+            <div class="comparison-card">
+              <div class="comparison-img">
+                <img src="../src/assets/img/tier-elite.jpg" alt="" loading="lazy" />
+                <span class="tier-label">Tier 04</span>
+              </div>
+              <div class="comparison-body">
+                <h4>Elite</h4>
+                <div class="range">R$ 5.000+</div>
+                <p>PCs completos, monitores 4K 240Hz, setups premium. Equipamento de campeonato.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="planos" aria-labelledby="planos-title">
+        <div class="container">
+          <header class="reveal" style="text-align: center; max-width: 720px; margin: 0 auto var(--space-xl);">
+            <span class="section-tag">Clube HyperLoot</span>
+            <h2 id="planos-title" class="section-title">Planos de assinatura</h2>
+            <p class="section-subtitle">Economize até 30%, ganhe acesso a torneios, lojinha exclusiva e crédito mensal.</p>
+          </header>
+
+          <div class="plans-toggle reveal">
+            <button data-mode="monthly" class="active">Mensal</button>
+            <button data-mode="yearly">Anual <span class="save-badge">-20%</span></button>
+          </div>
+
+          <div class="plans-grid reveal">
+
+            <article class="plan-card">
+              <div class="plan-header">
+                <h3>Newbie</h3>
+                <div class="plan-icon">🌱</div>
+              </div>
+              <p class="desc">Pra quem tá começando e quer experimentar o ecossistema.</p>
+              <div class="plan-price">
+                R$ <strong data-monthly="79" data-yearly="63">79</strong>
+                <span data-mode>/ mês</span>
+              </div>
+              <ul>
+                <li>5% off em todos os produtos</li>
+                <li>Frete grátis acima de R$ 199</li>
+                <li>Acesso aos torneios casuais</li>
+                <li>1 SetupAI completo / mês</li>
+              </ul>
+              <a href="contato.html" class="btn btn-secondary btn-block">Assinar Newbie</a>
+            </article>
+
+            <article class="plan-card featured">
+              <span class="plan-badge">Mais popular</span>
+              <div class="plan-header">
+                <h3>Pro Gamer</h3>
+                <div class="plan-icon">⚡</div>
+              </div>
+              <p class="desc">A combinação perfeita de economia, mimos e acesso premium.</p>
+              <div class="plan-price">
+                R$ <strong data-monthly="199" data-yearly="159">199</strong>
+                <span data-mode>/ mês</span>
+              </div>
+              <ul>
+                <li>15% off em todos os produtos</li>
+                <li>Frete grátis em qualquer pedido</li>
+                <li>Acesso à Arena Respawn</li>
+                <li>R$ 100 de crédito mensal</li>
+                <li>GamerCare estendido pra 1 ano</li>
+              </ul>
+              <a href="contato.html" class="btn btn-primary btn-block">Assinar Pro Gamer</a>
+            </article>
+
+            <article class="plan-card">
+              <div class="plan-header">
+                <h3>Elite</h3>
+                <div class="plan-icon">👑</div>
+              </div>
+              <p class="desc">O máximo do ecossistema gamer, perks de pro player.</p>
+              <div class="plan-price">
+                R$ <strong data-monthly="349" data-yearly="279">349</strong>
+                <span data-mode>/ mês</span>
+              </div>
+              <ul>
+                <li>25% off em todos os produtos</li>
+                <li>Frete same-day em SP</li>
+                <li>Convite VIP nos torneios oficiais</li>
+                <li>R$ 250 de crédito mensal</li>
+                <li>Lançamentos com 48h de antecedência</li>
+                <li>Mentoria 1:1 com pro player</li>
+              </ul>
+              <a href="contato.html" class="btn btn-secondary btn-block">Assinar Elite</a>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="promos" aria-labelledby="promo-title">
+        <div class="container">
+          <header class="reveal" style="margin-bottom: var(--space-2xl);">
+            <span class="section-tag">Drops da semana</span>
+            <h2 id="promo-title" class="section-title">Promoções que dão <span class="text-gradient">XP</span></h2>
+            <p class="section-subtitle">Ofertas relâmpago. Hora de upar o setup sem queimar a carteira.</p>
+          </header>
+
+          <div class="promos-list reveal">
+
+            <article class="promo-row lg">
+              <div class="promo-discount">30%</div>
+              <div class="promo-content">
+                <h3>Combo Setup Iniciante</h3>
+                <p>Mouse HyperPro + teclado RaidKey + headset Echo + mousepad XL. Tudo o que você precisa pra começar com o pé direito.</p>
+                <small>Válido até 31/05/2026 · primeiro pedido</small>
+              </div>
+              <a href="contato.html" class="btn btn-primary">Resgatar oferta</a>
+            </article>
+
+            <article class="promo-row">
+              <div class="promo-discount">R$100</div>
+              <div class="promo-content">
+                <h3>Indique e ganhe</h3>
+                <p>Você ganha R$ 100 e seu amigo R$ 50 no primeiro pedido dele.</p>
+                <small>Sem limite de indicações</small>
+              </div>
+              <a href="contato.html" class="btn btn-secondary">Indicar</a>
+            </article>
+
+            <article class="promo-row">
+              <div class="promo-discount">2x1</div>
+              <div class="promo-content">
+                <h3>Jogos AAA</h3>
+                <p>Compre 1 jogo do catálogo e leve outro de mesmo valor ou menor.</p>
+                <small>Válido em qualquer dia da semana</small>
+              </div>
+              <a href="contato.html" class="btn btn-secondary">Ver jogos</a>
+            </article>
+
+            <article class="promo-row">
+              <div class="promo-discount">12x</div>
+              <div class="promo-content">
+                <h3>PCs sem juros</h3>
+                <p>Parcele PCs gamer em até 12x sem juros no cartão de crédito.</p>
+                <small>Válido em PCs acima de R$ 4.000</small>
+              </div>
+              <a href="contato.html" class="btn btn-secondary">Parcelar</a>
+            </article>
+
+            <article class="promo-row">
+              <div class="promo-discount">FREE</div>
+              <div class="promo-content">
+                <h3>Mousepad de cortesia</h3>
+                <p>Comprou mouse ou teclado? Ganha mousepad XL grátis (R$ 129).</p>
+                <small>Brinde aplicado no carrinho</small>
+              </div>
+              <a href="contato.html" class="btn btn-secondary">Aproveitar</a>
+            </article>
+
+            <article class="promo-row">
+              <div class="promo-discount">20%</div>
+              <div class="promo-content">
+                <h3>Cadeira + Mesa</h3>
+                <p>Combo de mobiliário gamer pra montar o setup dos sonhos.</p>
+                <small>Inclui cadeira Throne + mesa elevatória</small>
+              </div>
+              <a href="contato.html" class="btn btn-secondary">Montar combo</a>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner" aria-labelledby="cta-title">
+        <div class="cta-banner-bg">
+          <img src="../src/assets/img/cta-custom-build.jpg" alt="Interior de PC gamer custom em montagem - setup personalizado HyperLoot" />
+        </div>
+        <div class="container">
+          <div class="cta-banner-content reveal">
+            <h2 id="cta-title">Não achou o que queria?</h2>
+            <p>Nossa equipe monta um setup 100% personalizado pelo seu orçamento e estilo. Sem custo de consultoria.</p>
+            <div class="cta-banner-actions">
+              <a href="contato.html" class="btn btn-primary btn-lg">Falar com a HyperLoot</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+
+        <div class="footer-top">
+          <div class="footer-about">
+            <a href="../index.html" class="logo">
+              <img src="../src/assets/img/logo-hyper.png" alt="HyperLoot" class="logo-img" />
+            </a>
+            <p>Sua jornada gamer começa aqui. Equipamentos de elite, garantia 24h e atendimento por gamers de verdade desde 2015.</p>
+
+            <form id="newsletter-form" class="footer-newsletter" aria-label="Inscrever na newsletter">
+              <input type="email" placeholder="seu@email.com" aria-label="E-mail" required />
+              <button type="submit">Conectar →</button>
+            </form>
+          </div>
+
+          <div>
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="portifolio.html">Portifólio</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Categorias</h4>
+            <ul>
+              <li><a href="portifolio.html?cat=periferico#produtos">Periféricos</a></li>
+              <li><a href="portifolio.html?cat=audio#produtos">Áudio</a></li>
+              <li><a href="portifolio.html?cat=monitor#produtos">Monitores</a></li>
+              <li><a href="portifolio.html?cat=pc#produtos">PCs &amp; Consoles</a></li>
+              <li><a href="portifolio.html?cat=mobiliario#produtos">Mobiliário</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Contato</h4>
+            <div class="footer-contact-item">
+              <span class="icon" aria-hidden="true">☎</span>
+              <span>(11) 4002-8922</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon" aria-hidden="true">✉</span>
+              <span>contato@hyperloot.com.br</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon" aria-hidden="true">📍</span>
+              <span>Av. Paulista, 2300 · São Paulo/SP</span>
+            </div>
+
+            <div class="footer-socials">
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="18" cy="6" r="1" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitch">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M4 3h17v11l-5 5h-3l-3 3H8v-3H4V3zm15 10V5H6v10h3v3l3-3h4l3-3zm-3-7h-2v5h2V6zm-5 0H9v5h2V6z" />
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23 7s-.2-1.6-.9-2.3c-.8-.9-1.8-.9-2.2-1C16.7 3.5 12 3.5 12 3.5s-4.7 0-7.9.2c-.4 0-1.4.1-2.2 1C1.2 5.4 1 7 1 7S.8 8.9.8 10.7v1.6c0 1.8.2 3.7.2 3.7s.2 1.6.9 2.3c.8.9 2 .9 2.5 1 1.8.2 7.6.2 7.6.2s4.7 0 7.9-.2c.4-.1 1.4-.1 2.2-1 .7-.7.9-2.3.9-2.3s.2-1.8.2-3.7v-1.6c0-1.8-.2-3.7-.2-3.7zM9.7 14.4V8.6l6.2 2.9-6.2 2.9z" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Discord">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20 4.5A18 18 0 0 0 15.5 3l-.2.5a13 13 0 0 0-6.6 0l-.2-.5A18 18 0 0 0 4 4.5C1.5 8.3.8 12 1.1 15.6c2 1.5 4 2.4 5.9 3l.5-.7c-.7-.3-1.4-.7-2-1.1.2-.1.3-.3.5-.4 3.6 1.7 7.4 1.7 11 0 .1.1.3.3.5.4-.6.4-1.3.8-2 1.1l.5.7c1.9-.6 3.8-1.5 5.9-3 .4-4.2-.6-7.9-2.9-11.1zM8.7 13.4c-1.2 0-2.1-1-2.1-2.3s.9-2.3 2.1-2.3 2.1 1 2.1 2.3-1 2.3-2.1 2.3zm6.6 0c-1.2 0-2.1-1-2.1-2.3s.9-2.3 2.1-2.3 2.1 1 2.1 2.3-1 2.3-2.1 2.3z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© <span id="current-year">2026</span> HyperLoot. Todos os direitos reservados.</span>
+          <div class="footer-bottom-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">LGPD</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <a href="https://wa.me/5511400289220" class="float-wpp" aria-label="Falar no WhatsApp" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4A10 10 0 0 0 4 17l-1 4 4-1a10 10 0 0 0 13-13zm-8 16a8 8 0 0 1-4-1l-3 1 1-3a8 8 0 1 1 6 3zm4-5c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1-.6.7-.7.8-.3.1-.5 0-1-.4-2-1.2c-.7-.6-1.2-1.4-1.4-1.6s0-.3.1-.4l.3-.4.2-.3v-.3l-.6-1.5c-.2-.4-.3-.3-.5-.3h-.4c-.1 0-.4 0-.6.3s-.7.7-.7 1.7.8 2 .9 2.1c.1.1 1.6 2.4 3.9 3.4 2 .8 2 .5 2.4.5.3 0 1.2-.5 1.4-1 .2-.5.2-.9.1-1l-.3-.2z" />
+      </svg>
+    </a>
+
+    <div class="cart-overlay" data-cart-overlay aria-hidden="true"></div>
+
+    <aside class="cart-drawer" aria-label="Carrinho de compras" aria-hidden="true">
+      <header class="cart-header">
+        <div>
+          <span class="cart-eyebrow">Carrinho</span>
+          <h3>Seu loot</h3>
+        </div>
+        <button type="button" class="cart-close" aria-label="Fechar carrinho">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="6" y1="6" x2="18" y2="18" />
+            <line x1="6" y1="18" x2="18" y2="6" />
+          </svg>
+        </button>
+      </header>
+
+      <div class="cart-empty" data-cart-empty>
+        <div class="cart-empty-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="20" cy="21" r="1" />
+            <path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6" />
+          </svg>
+        </div>
+        <p>Seu carrinho está vazio.</p>
+        <small>Adicione produtos do catálogo pra começar o saque.</small>
+      </div>
+
+      <ul class="cart-items" data-cart-items hidden></ul>
+
+      <footer class="cart-footer" data-cart-footer hidden>
+        <div class="cart-summary">
+          <div class="cart-summary-row">
+            <span>Subtotal</span>
+            <strong data-cart-subtotal>R$ 0</strong>
+          </div>
+          <div class="cart-summary-row muted">
+            <span>Frete</span>
+            <span>Calculado na finalização</span>
+          </div>
+          <div class="cart-summary-row total">
+            <span>Total</span>
+            <strong data-cart-total>R$ 0</strong>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-block cart-checkout">Finalizar compra →</button>
+        <button type="button" class="cart-clear" data-cart-clear>Limpar carrinho</button>
+      </footer>
+    </aside>
+
+    <div class="cart-toast" role="status" aria-live="polite" data-cart-toast aria-hidden="true">
+      <div class="cart-toast-icon" aria-hidden="true"></div>
+      <div class="cart-toast-body">
+        <strong data-toast-title></strong>
+        <span data-toast-msg></span>
+      </div>
+    </div>
+
+    <script src="../src/js/script.js"></script>
+  </body>
+
+</html>
