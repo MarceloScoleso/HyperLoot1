@@ -1,0 +1,27 @@
+==========================================================
+  CHECKPOINT 3 - FIAP
+  Projeto: HyperLoot - Loja Gamer
+==========================================================
+
+INTEGRANTE (PROJETO INDIVIDUAL):
+----------------------------------------------------------
+RM: 571626 - Marcelo Antonio Scoleso Junior
+----------------------------------------------------------
+
+TEMA: Loja Gamer (HyperLoot)
+
+LINK GITHUB PAGES:
+
+
+REPOSITORIO:
+https://github.com/MarceloScoleso/HyperLoot1
+
+DIFERENCIAIS DO PROJETO (Inovacoes alem do mercado):
+- SetupAI: IA que monta setup gamer ideal por orcamento e estilo
+- TryBeforeBuy: sala de teste com 12 setups montados antes de comprar
+- GamerCare 24h: garantia com troca em 24 horas para defeito de fabrica
+- Arena Respawn: torneios mensais para clientes com premios
+- TrocaUp: programa de troca/upgrade com credito por periferico antigo
+- Streamer Kit: pacote completo + mentoria 1:1 com streamer profissional
+
+==========================================================
